@@ -1,0 +1,98 @@
+[
+  {
+    "source_name": "Belle of the Ranch",
+    "url": "https://www.youtube.com/@belleoftheranch",
+    "tags": "progressive, youtube, commentary",
+    "source_type": "Unknown"
+  },
+  {
+    "source_name": "Robert Reich's Substack",
+    "url": "https://robertreich.substack.com",
+    "tags": "economics, blog, policy",
+    "source_type": "Unknown"
+  },
+  {
+    "source_name": "Fox News Opinion",
+    "url": "https://www.foxnews.com/opinion",
+    "tags": "right-wing, news, opinion",
+    "source_type": "News"
+  },
+  {
+    "source_name": "Media Matters",
+    "url": "https://www.mediamatters.org",
+    "tags": "progressive, media, watchdog",
+    "source_type": "Unknown"
+  },
+  {
+    "source_name": "Robert_Reich_Substack",
+    "url": "https://robertreich.substack.com/",
+    "tags": "progressive, commentary",
+    "source_type": "Substack"
+  },
+  {
+    "source_name": "Belle of the Ranch",
+    "source_type": "YouTube",
+    "tags": "progressive,youtube,commentary",
+    "url": "https://www.youtube.com/@belleoftheranch"
+  },
+  {
+    "source_name": "Media Matters",
+    "source_type": "Other",
+    "tags": "progressive,news",
+    "url": "https://www.mediamatters.org"
+  },
+  {
+    "source_name": "Belle of the Ranch",
+    "source_type": "youtube",
+    "tags": "progressive",
+    "url": "https://www.youtube.com/@belleoftheranch"
+  },
+  {
+    "source_name": "Media Matters",
+    "source_type": "news",
+    "tags": "progressive",
+    "url": "https://www.mediamatters.org"
+  },
+  {
+    "source_name": "Belle of the Ranch csv",
+    "source_type": "youtube",
+    "tags": "progressive",
+    "url": "https://www.youtube.com/@belleoftheranch"
+  },
+  {
+    "source_name": "Media Matters csv",
+    "source_type": "news",
+    "tags": "progressive",
+    "url": "https://www.mediamatters.org"
+  },
+  {
+    "source_name": "Belle of the Ranch",
+    "source_type": "youtube",
+    "tags": "progressive",
+    "url": "https://www.youtube.com/@belleoftheranch"
+  },
+  {
+    "source_name": "Media Matters",
+    "source_type": "news",
+    "tags": "progressive",
+    "url": "https://www.mediamatters.org"
+  },
+  {
+    "source_name": "Fox News",
+    "source_type": "news",
+    "tags": "conservative",
+    "url": "https://www.foxnews.com"
+  },
+  {
+    "source_name": "Breitbart",
+    "source_type": "news",
+    "tags": "conservative",
+    "url": "https://www.breitbart.com"
+  },
+  {
+    "source_name": "Robert Reich",
+    "source_type": "substack",
+    "tags": "progressive",
+    "url": "https://robertreich.substack.com"
+  }
+]

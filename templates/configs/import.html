@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+    <title>Import Sources</title>
+</head>
+<body>
+    <h1>Import Sources</h1>
+    <form method="post" action="{{ url_for('import_configs') }}">
+        <input type="file" name="file">
+        <button type="submit">Import</button>
+    </form>
+</body>
+</html>
