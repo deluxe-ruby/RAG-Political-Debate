@@ -1,8 +1,6 @@
 #!/bin/bash
-
-# Set Flask environment variables
+cd ~/wishes
+source venv/bin/activate
 export FLASK_APP=app.py
 export FLASK_ENV=development
-
-# Start Flask on all interfaces, port 8081
 flask run --host=0.0.0.0 --port=8081

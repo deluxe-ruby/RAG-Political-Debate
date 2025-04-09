@@ -35,3 +35,27 @@ def import_configs():
         else:
             flash("No file selected.")
     return render_template('configs/import.html')
+
+# List all configs (used by View Sources buttons)
+@app.route("/configs")
+def list_configs():
+    from flask import render_template
+    import os
+    import json
+
+    config_dir = "configs"
+    configs = []
+    for filename in os.listdir(config_dir):
+        if filename.endswith(".json"):
+            with open(os.path.join(config_dir, filename)) as f:
+                config = json.load(f)
+                config['filename'] = filename
+                configs.append(config)
+
+    return render_template("configs/index.html", configs=configs)
+
+# Redirect root URL to /configs
+@app.route("/")
+def index():
+    from flask import redirect, url_for
+    return redirect(url_for('list_configs'))
